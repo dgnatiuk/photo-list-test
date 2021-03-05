@@ -1,0 +1,28 @@
+{
+  "name": "test-proj",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.4"
+  },
+  "devDependencies": {
+    "@nuxt/types": "~2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-import-resolver-nuxt": "^1.0.1",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-import": "^2.21.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^10.0.3",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}
